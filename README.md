@@ -1,10 +1,6 @@
 # Empress CompatibilityChecker v1.0.1
 In-game mod compatibility checker and analyzer for BepInEx and Harmony. Shows which plugins patch the same methods, lets you quickly banish or re-enable plugins, and provides a Deep Analyzer with optional Extended heuristics, IL diff, and runtime trace tools. Built to help players and modders understand overlaps and spot real risks without guessing.
 
-![s1](https://i.ibb.co/fGXzH1GM/Repo-Screenshot-2025-12-02-00-05-42-86.png)
-![s2](https://i.ibb.co/Qjb9QztB/Repo-Screenshot-2025-12-02-00-05-52-24.png)
-![s3](https://i.ibb.co/1HCxJZd/Repo-Screenshot-2025-12-02-00-05-59-11.png)
-
 ## What this does
 This is a tool that inspects your loaded BepInEx plugins and the Harmony patches they add. It highlights where two or more mods touch the same method, then helps you reason about whether that is harmless or risky. It also gives you quick controls to disable or restore plugins so you can test fixes fast. Standard users can use it to see which mods overlap. Developers can use it to dig deeper with analysis, ordering hints, IL diff, and a light runtime trace.
 
